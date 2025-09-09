@@ -12,15 +12,15 @@ variable "vsphere_compute_cluster" {
 
 variable "vsphere_network" {
     default = "VM Network"
-  
 }
 
+// link with terraform.tfvars
 variable "vsphere_user" {
-    default = { sensitive =true }
+    default = { sensitive =true }  
 }
 
 variable "vsphere_password" {
-    default = { sensitive =true }
+    default = { sensitive =true } 
 }
 
 variable "vsphere_server" {
